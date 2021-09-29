@@ -1,0 +1,150 @@
+.box{
+    color: blue;
+    border-radius: 20px;
+    border-style: solid ;
+    height: 25vh;
+    width: 50vh;
+    border-color: red;
+    font-size:20px;
+    background-color: aquamarine;
+    
+}
+
+.message{
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    border: 55px;
+    margin-bottom: 50px;
+    margin-top: 5vh;
+    padding-top: 5vh;
+}
+
+
+*{
+    font-family: 'Times New Roman', Times, serif;
+    align-items: center ;
+    
+}
+
+
+.submit{
+    color: red;
+    border-radius: 25px;
+    border-color: red;
+    height: 50px;
+    width: 80px;
+    font-size: 19px;
+}
+
+.submit:hover{
+    color: blue;
+}
+
+.title{
+    background-color: aquamarine;
+    color:purple;
+    font-size: 80px;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    
+    
+    
+}
+header{
+    background-color: aquamarine;
+    position:sticky;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    padding-right: 50px;
+
+}
+
+
+body{
+    background-color: rgb(0, 183, 255);
+    text-align: center;
+    min-height: 100% ;
+    min-width: 100%;
+    margin:0%;
+    align-items: center;
+   /* background:  url(./shutterstock_788296465.jpg) no-repeat ;
+    background-size: 100% !important;*/
+}
+  
+ 
+
+
+h4{
+    font-size: 22px;
+    line-height: 25px;
+
+}
+
+.pic:hover{
+    color: red;
+}
+
+.para{
+    padding-bottom:20px;
+    text-align: center;
+    margin-left: 10vh;
+    margin-right: 10vh;
+    size: 1vh;
+    
+    
+}
+
+.data{
+    font-size: 20px;
+   
+}
+
+input{
+    font-size: 18px;
+    align-items: center;
+    padding: 6px;
+    border-radius: 11px;
+    background-color: aquamarine;
+    font-weight: bold;
+}
+
+section{
+   padding-top: 15vh;
+   padding-bottom: 15vh;
+   margin-bottom: 10vh;
+   align-items: center;
+   color: black;
+   text-decoration-style:dashed;
+   
+   font-weight: bold;
+   border: black 3px solid;
+   margin-left: 20%;
+   margin-right:20%;
+   border-radius: 12px;
+  
+   
+}
+
+.about{
+    padding-bottom: 10vh;
+    padding-right: 890px;
+    background-color: rgb(134, 230, 198);
+    
+}
+
+h4{
+    background-color: rgba(129, 225, 238, 0.675);
+    line-height: 1.5;
+}
+    
+
+.header_items{
+      background-color: #6fffcf;
+      float: right;
+      color: saddlebrown;
+      font-size: 20px;
+
+  }

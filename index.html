@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head >
+	<title>ROBOWISHER</title>
+    <link href="style.css" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+      <h1 class="title" ><img class="pic" src="robot_PNG82.png" height="90" width="85" alt="am bot"><strong >  ROBOWISHER </strong> </h1> 
+       <div class="header_items">
+          
+         </div>
+       
+      </header>
+     
+      <style>
+        body {
+          background-image: url('/shutterstock_788296465.jpg');
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: cover;
+        }
+        </style>
+  
+  <h4 class="para"><p><em style="font-size: 29px;">Hey,</em><br>I will help you to wish everyone. From now there will be no need to keep dates in your mind. let me greet your family or loved ones on behalf of you. Just tell me the date to wish on and your message which is to be sent. We will do your part of work .</p></h4>
+</div>
+  <section class="data">
+  
+    <form action="number" method="POST">
+        <label for="number">Enter phone number : </label>
+        <input type="tel" maxlength="10" minlength="10" id="number" pattern="[0-9]">
+        </form><br>
+
+    <form action="time" method="POST">
+        <label for="time">Enter time of sending Message : </label>
+        <input type="time" class="time" id="time">
+    </form><br>
+
+    <form action="dates" >
+        <label for="dates">Enter the date to wish :</label>
+        <input type="date" id="date" required > 
+        </form><br>
+
+  </section>
+<div class="mesg">
+  <label for="message" class="message">Enter the Message You want to send</label><br><br>
+    <textarea class="box"></textarea>
+</div>
+ <footer>
+     <form action="submit" method="POST">
+         <input type="submit" class="submit" name="submit" value="send ">
+     </form>
+   <div class='about' >
+     <h5 >ABOUT</h5>
+
+ </footer>
+ 
+
+ </div>
+</body>
+
+</html>
