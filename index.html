@@ -3,6 +3,9 @@
 <head >
 	<title>ROBOWISHER</title>
     <link href="style.css" rel="stylesheet">
+    
+
+    
 
 </head>
 <body>
@@ -14,7 +17,7 @@
        
       </header>
      
-      <!-- <style>
+     <!-- <style>
         body {
           background-image: url('./shutterstock_788296465.jpg');
           background-repeat: no-repeat;
@@ -23,41 +26,80 @@
         }
         </style>-->
   
-  <h4 class="para"><p><em style="font-size: 29px;">Hey,</em><br>I will help you to wish everyone. From now there will be no need to keep dates in your mind. let me greet your family or loved ones on behalf of you. Just tell me the date to wish on and your message which is to be sent. We will do your part of work .</p></h4>
-</div>
-  <section class="data">
   
-    <form action="number" method="POST">
-        <label for="number">Enter phone number : </label>
-        <input type="tel" maxlength="10" minlength="10" id="number" pattern="[0-9]">
-        </form><br>
+</div>
+<div class="contain">
+ 
+  <section class="data">
+    <form action="insert.php" method="post">
+    
+        <label for="number"><p style="font-size: 1.8vw;">Enter phone number : </p></label>
+        <input type="tel" maxlength="10" minlength="10" id="number" >
+        <br>
+    
+        <label for="time"><p style="font-size: 1.8vw;">Enter time of sending Message : </p></label>
+        <input type="time" class="time" id="time"><br>
 
-    <form action="time" method="POST">
-        <label for="time">Enter time of sending Message : </label>
-        <input type="time" class="time" id="time">
-    </form><br>
-
-    <form action="dates" >
-        <label for="dates">Enter the date to wish :</label>
+        <label for="dates"><p style="font-size: 1.8vw;">Enter the date to wish :</p></label>
         <input type="date" id="date" required > 
-        </form><br>
+        <br>
+      </div>
 
   </section>
-<div class="mesg">
-  <label for="message" class="message">Enter the Message You want to send</label><br><br>
-    <textarea class="box"></textarea>
-</div>
- <footer>
-     <form action="submit" method="POST">
-         <input type="submit" class="submit" name="submit" value="send ">
-     </form>
-   <div class='about' >
-     <h5 >#ABOUT</h5>
-
- </footer>
  
+  <div class="mesg">
+  <label for="message" class="message"><p  style="font-size: 2.3vw;align-items: center;">Enter the Message You want to send</p</label><br><br>
+    <textarea class="box" maxlength="30" ></textarea><br>
 
- </div>
+     <input type="submit" class="submit" name="submit" value="Send">
+     
+   
+    </div>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-head">
+          <h4>About Us</h4>
+          <ul>
+            <li><a style="margin-left:25% ;margin-right:25%;">Hi, I will help you to wish everyone. From now there will be no need to keep dates in your mind. let me greet your family or loved ones on behalf of you. Just tell me the date to wish on and your message which is to be sent. We will do your part of work .</a></li>
+            
+          </ul>
+        </div>
+        <div class="row">
+          <div class="footer-col">
+            <h4>Donate</h4>
+            <ul>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">our services</a></li>
+              <li><a href="#">privacy policy</a></li>
+            
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Developer</h4>
+            <ul>
+              <li><a href="#">HARSH THAKUR</a></li>
+              <li><a href="#"></a></li>
+
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>follow us</h4>
+            <div class="social-links">
+              <ul class="social-icons">
+                <li class="sli"><a class="sla" href="#"><i class="fa fa-facebook"></i></a></li>
+                <li class="sli"><a class="sla" href="#"><i class="fa fa-twitter"></i></a></li>
+                <li class="sli"><a class="sla" href="#"><i class="fa fa-instagram"></i></a></li>
+                <li class="sli"><a class="sla" href="#"><i class="fa fa-linkedin"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+ 
+ </footer>
+
+
 </body>
 
 </html>
