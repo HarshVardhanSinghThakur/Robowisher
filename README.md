@@ -17,7 +17,7 @@ Customizable greeting messages
 Installation
 To run this website on your local machine, follow these steps:
 
-Clone the repo to your local machine using the command git clone https://github.com/yourusername/robowisher.git.
+Clone the repo to your local machine using the command git clone https://github.com/Warlordharsh/robowisher.git.
 Navigate to the project directory using cd robowisher.
 Install the dependencies by running npm install.
 Create a .env file in the root directory of the project and add the required environment variables as shown in the .env.example file.
